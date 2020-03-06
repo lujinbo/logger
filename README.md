@@ -73,7 +73,7 @@ logger当前支持控制台、文件、网络3种方式适配器输出，可以�
         "addr":"10.1.55.10:1024",   // 日志接收服务器
         "level": "Warn",            // 网络日志输出等级
         "reconnect":true,           // 网络断开后是否重连
-        "reconnectOnMsg":false,     // 发送完每条消息后是否断开网络
+        "reconnectOnMsg":false     // 发送完每条消息后是否断开网络
     }
 }
 ```
